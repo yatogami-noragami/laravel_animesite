@@ -1,0 +1,62 @@
+.navTabColor:hover {
+    transition: all 300ms ease-in-out;
+    color: white !important;
+}
+
+.alert {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    transition: all 300ms ease-in-out;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#searchParent {
+    position: relative;
+}
+
+#searchRes {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 2px darkgoldenrod solid;
+    z-index: 1;
+}
+
+.resLink:hover .resTxt {
+    color: darkgoldenrod;
+}
+
+.resTxt {
+    transition: all 300ms ease-in-out;
+    color: white;
+}
+
+
+#backToTop {
+    bottom: 0;
+    right: -20%;
+    opacity: 0;
+    position: fixed;
+}
+
+
+@keyframes backToTop {
+    from {
+        right: -20%;
+        opacity: 0;
+    }
+
+    to {
+        right: 20%;
+        opacity: 1;
+    }
+}

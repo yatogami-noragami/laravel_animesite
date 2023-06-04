@@ -1,0 +1,25 @@
+.alert {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+}
+
+#backToTop {
+    bottom: 0;
+    right: -20%;
+    opacity: 0;
+    position: fixed;
+}
+
+
+@keyframes backToTop {
+    from {
+        right: -20%;
+        opacity: 0;
+    }
+
+    to {
+        right: 20%;
+        opacity: 1;
+    }
+}

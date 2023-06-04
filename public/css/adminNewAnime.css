@@ -1,0 +1,9 @@
+textarea {
+    height: 200px !important;
+}
+
+.alert {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+}

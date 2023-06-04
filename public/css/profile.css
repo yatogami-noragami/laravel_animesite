@@ -1,0 +1,79 @@
+#passwordHideShow {
+    cursor: pointer;
+}
+
+.animeImage {
+    height: 350px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .animeImage {
+        height: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .animeImage {
+        height: 200px !important;
+    }
+
+    .animeText {
+        font-size: 10px;
+    }
+}
+
+.animeParent:hover .animeText {
+    transition: all 300ms ease-in-out;
+    color: darkgoldenrod;
+}
+
+.animeParent:hover .animeImage {
+    transition: all 300ms ease-in-out;
+    transform: scale(0.9, 0.9) !important;
+}
+
+.alert {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+}
+
+.textDGR:hover {
+    color: darkgoldenrod;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.pfImg {
+    height: 250px;
+    width: 250px;
+}
+
+.linkDGR2 {
+    color: darkgoldenrod;
+}
+
+#backToTop {
+    bottom: 0;
+    right: -20%;
+    opacity: 0;
+    position: fixed;
+}
+
+@keyframes backToTop {
+    from {
+        right: -20%;
+        opacity: 0;
+    }
+
+    to {
+        right: 20%;
+        opacity: 1;
+    }
+}
